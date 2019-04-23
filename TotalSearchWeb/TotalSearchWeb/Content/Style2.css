@@ -1,0 +1,33 @@
+﻿ .ui-panel {
+              overflow: hidden;
+              width: 100%;
+          }
+
+          .inside {
+              overflow-y: scroll;
+          }
+
+          .demipage {
+              width: 45%;
+              margin-right:5%;
+              float: right;
+          }
+
+          .demipage1 {
+              width: 45%;
+              margin-right: 0;
+              float: right;
+          }
+
+          .ui-inlinetabs-tab .ui-btn-inner {
+              
+              padding:5px;
+          }
+
+          .ui-inlinetabs-bar {
+              padding:1px;
+          }
+
+          .ui-inlinetabs-container {
+              padding:5px;
+          }

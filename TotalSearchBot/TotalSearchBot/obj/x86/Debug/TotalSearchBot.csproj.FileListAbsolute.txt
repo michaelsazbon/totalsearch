@@ -1,0 +1,14 @@
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\TotalSearchBot.exe.config
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\obj\x86\Debug\TotalSearchBot.exe
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\obj\x86\Debug\TotalSearchBot.pdb
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\TotalSearchBot.exe
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\TotalSearchBot.pdb
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.dll
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.xml
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Projects\Total Search\TotalSearchBot\TotalSearchBot\obj\x86\Debug\TotalSearchBot.csprojResolveAssemblyReference.cache

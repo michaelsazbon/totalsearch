@@ -1,0 +1,5 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalSearchWeb", "TotalSearchWeb\TotalSearchWeb.csproj", "{D6EE1C25-8CA6-4662-A327-4C1A1CEE9191}"
+EndProject

@@ -1,0 +1,8 @@
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\TestSelenium2.exe.config
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\TestSelenium2.exe
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\TestSelenium2.pdb
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\Newtonsoft.Json.dll
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\WebDriver.dll
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\bin\Release\WebDriver.Support.dll
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\obj\x86\Release\TestSelenium2.exe
+D:\Projects\ScreenScrapper\TestSelenium2\TestSelenium2\obj\x86\Release\TestSelenium2.pdb

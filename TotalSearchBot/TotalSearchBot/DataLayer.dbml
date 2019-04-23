@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TotalSearch" Class="DataLayerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\sqlexpress;Initial Catalog=TotalSearch;Integrated Security=True" SettingsObjectName="TotalSearchBot.Properties.Settings" SettingsPropertyName="TotalSearchConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Location" Member="Locations">
+    <Type Name="Location">
+      <Column Name="appartementid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="typebien" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="zone" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ville" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="quartier" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="nombrechambre" Type="System.Decimal" DbType="Decimal(3,1)" CanBeNull="true" />
+      <Column Name="prix" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="etage" Type="System.Decimal" DbType="Decimal(3,1)" CanBeNull="true" />
+      <Column Name="commentaire" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nombrebalcon" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="plusieursresidents" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="adresse" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="superficie" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nombreetage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="climatisation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="balcon" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ascenseur" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="chambreforte" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="garage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="acceshandicape" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="cave" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="bareaux" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="balconsoleil" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="renovee" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="meublee" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="unitelogement" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="animauxdomestique" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sourceid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contact" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="telcontact" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="numeromaison" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="dateentree" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="entreeimmediate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="urlimage" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="nombreversement" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="entreeflexible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="sourcename" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="longitude" Type="System.Decimal" DbType="Decimal(10,7)" CanBeNull="true" />
+      <Column Name="latitude" Type="System.Decimal" DbType="Decimal(10,7)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

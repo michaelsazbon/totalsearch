@@ -1,0 +1,364 @@
+﻿html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      
+      #maincontainer
+      {
+         
+      }
+      
+      #map-canvas 
+      {
+         height: 100%; 
+      }
+      
+
+    .liveExample { padding: 1em; background-color: #EEEEDD; border: 1px solid #CCC; }
+    .liveExample input { font-family: Arial; }
+    .liveExample b { font-weight: bold; }
+    .liveExample p { margin-top: 0.9em; margin-bottom: 0.9em; }
+    .liveExample select[multiple] { width: 100%; height: 8em; }
+    .liveExample h2 { margin-top: 0.4em; font-weight: bold; font-size: 1.2em; }
+    
+    
+    .ko-grid { margin-bottom: 1em; width: 25em; border: 1px solid silver; background-color:White; }
+    .ko-grid th { text-align:left; background-color: Black; color:White; }
+    .ko-grid td, th { padding: 0.4em; }
+    .ko-grid tr:nth-child(odd) { background-color: #DDD; }
+    .ko-grid-pageLinks { margin-bottom: 1em; }
+    .ko-grid-pageLinks a { padding: 0.5em; }
+    .pager2 a.selected { background-color: Black; color: White; }
+    
+    #header 
+    {
+        background-color:#f1f1f1;
+        border-bottom: 1px solid #e5e5e5;
+        height:30px;
+    }
+    
+    #footer 
+    {
+        background-color:#f1f1f1;
+        /*position: absolute;
+        bottom:0;
+        left:0;
+        right:0;*/
+        /*border-top: 1px solid #EBEBEB;*/
+        height:20px;
+    }
+
+    #toggleBtn
+    {    
+        /*float: right;
+        margin: 0;
+        padding: 1px 0 0 0;*/
+        position:absolute;
+        top:1px;
+        
+    }
+    
+    #toggleSpan
+    {
+        background-color: White;
+        position:absolute;
+        top:1px;
+    }
+    
+    .OpenedSpan
+    {
+        right:1px;
+    }
+    
+    .ClosedSpan
+    {
+        right:-25px; 
+    }
+    
+    #toggleSpan2
+    {
+        background-color: White;
+        position:absolute;
+        right:0;     
+        /*right:16px;    /*scroll bar*/ 
+    }
+    
+    .OpenedSpan2
+    {
+        bottom:2px;
+    }
+    
+    .ClosedSpan2
+    {
+        bottom:-25px; 
+    }
+    
+    
+    #toggleBtn2
+    {   
+        position:absolute;
+        bottom:0;
+        /*right:0; */
+        /*float: right;
+        margin: 0;
+        padding: 1px 0 0 0;
+        */
+    }
+    
+    #toggleSpan3
+    {
+        background-color: White;
+        position:absolute;
+        right:0;    
+        /*right:16px;    /*scroll bar*/
+    }
+    
+    .OpenedSpan3
+    {
+        top:1px; 
+    }
+    
+    .ClosedSpan3
+    {
+        top:-25px;
+    }
+    
+    
+    #toggleBtn3
+    {   
+        position:absolute;
+        bottom:0;
+        /*right:0; */
+        /*float: right;
+        margin: 0;
+        padding: 1px 0 0 0;
+        */
+    }
+    
+    #sliderbox 
+    {
+        /*position:fixed;*/
+        /*left:0;
+        top:0;
+        bottom:0;*/
+        border: 1px solid #EBEBEB;
+        width:700px;
+        height:600px;
+        background-color: White;
+        overflow-y:auto;
+    }
+    
+    #sliderbox2 
+    {
+        /*position:fixed;*/
+        /*left:0;
+        top:0;
+        bottom:0;*/
+        border: 1px solid #EBEBEB;
+        width:1310px;
+        height:95%;
+        background-color: White;
+        overflow-y:auto;
+    }
+    
+    #sliderbox3 
+    {
+        /*position:fixed;*/
+        /*left:0;
+        top:0;
+        bottom:0;*/
+        border: 1px solid #EBEBEB;
+        width:1310px;
+        height:260px;
+        background-color: White;
+    }
+    
+    .Opened
+    {
+        background: no-repeat url('../../Content/Images/arrow_left.png') 0 0;
+        /*right:0; */
+    }
+    
+    .Closed
+    {
+        background: no-repeat url('../../Content/Images/arrow_right.png') 0 0;
+        /*right:-25px;*/ 
+    }
+    
+    .Opened2
+    {
+        background: no-repeat url('../../Content/Images/arrow_top.png') 0 0;
+    }
+    
+    .Closed2
+    {
+        background: no-repeat url('../../Content/Images/arrow_bottom.png') 0 0;
+    }
+    
+    .Opened3
+    {
+        background: no-repeat url('../../Content/Images/arrow_bottom.png') 0 0;
+    }
+    
+    .Closed3
+    {
+        background: no-repeat url('../../Content/Images/arrow_top.png') 0 0;
+    }
+    
+    #searchForm
+    {
+        /*display:none;*/
+    }
+    
+    #SearchResults
+    {
+        display:none;
+    }
+
+    #StatsChart
+    {
+    display:none;
+    }
+    
+    .table_search input[type="text"] , .table_search input[type="datetime"]  , .table_search input[type="number"]
+    {
+        width:90px;
+        
+    }
+    
+    .table_search input, .table_search select
+    {
+        font-size:13px;
+    }
+    
+    .ParamTable tr td
+    {
+        padding: 0 3px;
+    }
+    
+    .table_search 
+    {
+        padding: 0 3px;
+        font-size:13px;
+        font-weight: bold;
+    }
+    
+    #SearchButton
+    {
+        width:88px;
+        height:88px;
+    }
+    
+    .MainTable
+    {
+        margin: 0 10px 0 10px;
+    }
+    
+    div.geoxml3_infowindow > h3 
+    {
+        margin:4px 0;
+    }
+    
+    .mobileform label 
+    {
+        /*width: 30%;*/
+    font-weight:bold;
+    font-size: 11px;
+    }
+
+        .mobileform label.ui-input-text ,.mobileform label.ui-select
+        {
+            font-weight:bold;
+            font-size: 12px;
+        }
+    
+    .mobileform {
+        /*width:100%;*/
+        padding: 5px 15px;
+    }
+
+        #searchFormBox
+        {
+            display:none;
+        }
+
+
+        #SearchResultsBox {
+            padding: 5px 10px 0px 0px;
+        }
+
+        #ResultsTable td {
+            /*border: 1px solid #EBEBEB;*/
+        }
+
+
+        
+    /*
+    .mobileform .mobilelabel {
+    width: 30%;
+    font-weight:bold;
+    font-size: 13px;
+    }
+
+    .mobileform .mobilefield {
+    width: 70%;
+    }
+
+    .mobileform .mobiletable {
+        padding: 5px 20px;
+    }
+    */
+    /*
+.mobileform input[type="text"], .mobileform input[type="number"], .mobileform input[type="password"], .mobileform input[type="tel"], .mobileform input[type="email"], .mobileform input[type="date"] {
+    width: 64%;
+}*/
+    /*
+    #map-canvas img {
+        max-width: none;
+    }
+    
+    
+    .searchFormMainContainer {
+    margin-bottom: 2em;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.searchFormMainContainer form {
+    padding: 20px;
+    clear: both;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.searchFormMainContainer select, .searchFormMainContainer textarea {
+    width: 64%;
+}
+
+.searchFormMainContainer input[type="text"], .searchFormMainContainer input[type="number"], .searchFormMainContainer input[type="password"], .searchFormMainContainer input[type="tel"], .searchFormMainContainer input[type="email"], .searchFormMainContainer input[type="date"] {
+    width: 64%;
+}
+
+.searchFormMainContainer select {
+    float: left;
+    text-align: right;
+}
+
+.searchFormMainContainer label {
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.borderBottom {
+    /*border-bottom: 1px solid #A5A5A5;*/
+   /* padding-bottom: 10px;
+}
+*/
